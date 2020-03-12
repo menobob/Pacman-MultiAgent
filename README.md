@@ -1,7 +1,8 @@
-# PROJECT OVERVIEW
+# < PROJECT OVERVIEW >
 
 ![pacman game](http://ai.berkeley.edu/images/pacman_game.gif)
 
+The Pac-Man projects are designed such that students can use an array of AI techniques to playing Pac-Man. However, these projects don't focus on building AI for video games. Instead, they teach foundational AI concepts, such as informed state-space search, probabilistic inference, and reinforcement learning. These concepts underly real-world application areas such as natural language processing, computer vision, and robotics.
 
 ###### Pacman - Search
 > Implement depth-first, breadth-first, uniform cost, and A* search algorithms. These algorithms are used to solve navigation and traveling salesman problems in the Pacman world.
@@ -13,7 +14,7 @@
 ###### Ghostbusters
 > Probabilistic inference in a hidden Markov model tracks the movement of hidden ghosts in the Pacman world. Implement exact inference using the forward algorithm and approximate inference via particle filters.
 
-# FIRST SECTION 
+# < FIRST SECTION > 
 ## Pacman-Search
 
 Implemented depth-first, breadth-first, uniform cost, and A* search algorithms. These algorithms were used to solve navigation and traveling salesman problems in the Pacman world.
@@ -108,7 +109,7 @@ Sometimes, even with A* and a good heuristic, finding the optimal path through a
 $ python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5 
 ```
 
-# SECOND SECTION
+# < SECOND SECTION >
 ## Pacman-MultiAgentSearch
 
 In this project, you will design agents for the classic version of Pacman, including ghosts. Along the way, you will implement both minimax and expectimax search and try your hand at evaluation function design.
